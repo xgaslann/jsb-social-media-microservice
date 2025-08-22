@@ -1,13 +1,17 @@
 ext {
     versions = [
             springBoot: '3.3.5',
+            postgreSQL: '42.7.7',
+            lombok    : '1.18.38'
 
     ]
 
     libraries = [
-            springBootStarterWeb            : "org.springframework.boot:spring-boot-starter-web:${versions.springBoot}",
-            springBootStarterTest           : "org.springframework.boot:spring-boot-starter-test:${versions.springBoot}",
-//            springBootStarterDataJpa        : "org.springframework.boot:spring-boot-starter-data-jpa:${versions.springBoot}",
+            springBootStarterWeb    : "org.springframework.boot:spring-boot-starter-web:${versions.springBoot}",
+            springBootStarterDataJpa: "org.springframework.boot:spring-boot-starter-data-jpa:${versions.springBoot}",
+            springBootStarterTest   : "org.springframework.boot:spring-boot-starter-test:${versions.springBoot}",
+            postgreSQL              : "org.postgresql:postgresql:${versions.postgreSQL}",
+            lombok                  : "org.projectlombok:lombok:${versions.lombok}",
 //            springBootStarterSecurity       : "org.springframework.boot:spring-boot-starter-security:${versions.springBoot}",
 //            springBootStarterValidation     : "org.springframework.boot:spring-boot-starter-validation:${versions.springBoot}",
 //            springBootStarterActuator       : "org.springframework.boot:spring-boot-starter-actuator:${versions.springBoot}",
