@@ -1,4 +1,4 @@
-plugins{
+plugins {
     id 'java'
     id 'application'
     id 'org.springframework.boot' version '3.3.5'
@@ -47,10 +47,8 @@ allprojects {
         testImplementation libraries.springBootStarterTest
     }
 
-    tasks.withType(Test).tap {
-        configureEach {
-            useJUnitPlatform()
-        }
+    test {
+        useJUnitPlatform()
     }
 
     configurations {
@@ -58,5 +56,4 @@ allprojects {
             extendsFrom annotationProcessor
         }
     }
-
 }
