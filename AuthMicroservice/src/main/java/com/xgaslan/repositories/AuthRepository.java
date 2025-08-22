@@ -9,4 +9,5 @@ import java.util.UUID;
 @Repository
 public interface AuthRepository extends JpaRepository<Auth, UUID> {
 
+    Boolean existsByUsernameAndPassword(String username, String password);
 }

@@ -1,8 +1,9 @@
 ext {
     versions = [
-            springBoot: '3.3.5',
+            springBoot: '3.5.5',
             postgreSQL: '42.7.7',
-            lombok    : '1.18.38'
+            lombok    : '1.18.38',
+            swagger   : '2.8.10'
 
     ]
 
@@ -12,6 +13,7 @@ ext {
             springBootStarterTest   : "org.springframework.boot:spring-boot-starter-test:${versions.springBoot}",
             postgreSQL              : "org.postgresql:postgresql:${versions.postgreSQL}",
             lombok                  : "org.projectlombok:lombok:${versions.lombok}",
+            swaggerUI                : "org.springdoc:springdoc-openapi-starter-webmvc-ui:${versions.swagger}",
 //            springBootStarterSecurity       : "org.springframework.boot:spring-boot-starter-security:${versions.springBoot}",
 //            springBootStarterValidation     : "org.springframework.boot:spring-boot-starter-validation:${versions.springBoot}",
 //            springBootStarterActuator       : "org.springframework.boot:spring-boot-starter-actuator:${versions.springBoot}",
