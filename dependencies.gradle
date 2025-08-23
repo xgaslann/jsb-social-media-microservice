@@ -11,6 +11,7 @@ ext {
     libraries = [
             springBootStarterWeb          : "org.springframework.boot:spring-boot-starter-web:${versions.springBoot}",
             springBootStarterDataJpa      : "org.springframework.boot:spring-boot-starter-data-jpa:${versions.springBoot}",
+            springBootStarterDataRedis    : "org.springframework.boot:spring-boot-starter-data-redis:${versions.springBoot}",
             springBootStarterDataMongo    : "org.springframework.boot:spring-boot-starter-data-mongodb:${versions.springBoot}",
             springBootStarterTest         : "org.springframework.boot:spring-boot-starter-test:${versions.springBoot}",
             springCloudStarterOpenFeign   : "org.springframework.cloud:spring-cloud-starter-openfeign:${versions.springCloud}",
