@@ -1,5 +1,5 @@
 dependencies {
-    implementation libraries.springBootStarterDataMongo
-    implementation libraries.lombok
-    annotationProcessor libraries.lombok
+    implementation (libraries.springBootStarterDataMongo as String)
+    implementation (libraries.lombok as String)
+    annotationProcessor (libraries.lombok as String)
 }
