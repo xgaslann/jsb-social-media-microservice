@@ -1,7 +1,8 @@
 dependencies {
-    implementation (libraries.springBootStarterDataJpa as String)
-    implementation (libraries.postgreSQL as String)
-    implementation (libraries.lombok as String)
-    annotationProcessor (libraries.lombok as String)
-    implementation (libraries.springCloudStarterOpenFeign as String)
+    implementation(libraries.springBootStarterDataJpa as String)
+    implementation(libraries.postgreSQL as String)
+    implementation(libraries.lombok as String)
+    annotationProcessor(libraries.lombok as String)
+    implementation(libraries.springCloudStarterOpenFeign as String)
+    implementation(libraries.springCloudStarterConfigClient as String)
 }

@@ -1,28 +1,8 @@
 spring:
+  cloud:
+    config:
+      uri: http://localhost:9089
+  config:
+    import: "configserver:"
   application:
-    name: user
-
-  data:
-    mongodb:
-      uri: mongodb://admin:pass@localhost:27017/
-      host: localhost
-      username: admin
-      password: pass
-      database: user_profile_db
-
-
-server:
-  port: 9091
-  servlet:
-    context-path: /api
-
-springdoc:
-  api-docs:
-    path: /api-docs
-    enabled: true
-  swagger-ui:
-    path: /swagger
-    enabled: true
-    disable-swagger-default-url: true
-    doc-expansion: none
-  show-actuator: true
+    name: user-application

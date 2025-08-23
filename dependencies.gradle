@@ -9,18 +9,16 @@ ext {
     ]
 
     libraries = [
-            springBootStarterWeb       : "org.springframework.boot:spring-boot-starter-web:${versions.springBoot}",
-            springBootStarterDataJpa   : "org.springframework.boot:spring-boot-starter-data-jpa:${versions.springBoot}",
-            springBootStarterDataMongo : "org.springframework.boot:spring-boot-starter-data-mongodb:${versions.springBoot}",
-            springBootStarterTest      : "org.springframework.boot:spring-boot-starter-test:${versions.springBoot}",
-            springCloudStarterOpenFeign: "org.springframework.cloud:spring-cloud-starter-openfeign:${versions.springCloud}",
-            postgreSQL                 : "org.postgresql:postgresql:${versions.postgreSQL}",
-            lombok                     : "org.projectlombok:lombok:${versions.lombok}",
-            swaggerUI                  : "org.springdoc:springdoc-openapi-starter-webmvc-ui:${versions.swagger}",
-//            springBootStarterSecurity       : "org.springframework.boot:spring-boot-starter-security:${versions.springBoot}",
-//            springBootStarterValidation     : "org.springframework.boot:spring-boot-starter-validation:${versions.springBoot}",
-//            springBootStarterActuator       : "org.springframework.boot:spring-boot-starter-actuator:${versions.springBoot}",
-//            springBootDevtools              : "org.springframework.boot:spring-boot-devtools:${versions.springBoot}",
-//            springBootConfigurationProcessor: "org.springframework.boot:spring-boot-configuration-processor:${versions.springBoot}",
+            springBootStarterWeb          : "org.springframework.boot:spring-boot-starter-web:${versions.springBoot}",
+            springBootStarterDataJpa      : "org.springframework.boot:spring-boot-starter-data-jpa:${versions.springBoot}",
+            springBootStarterDataMongo    : "org.springframework.boot:spring-boot-starter-data-mongodb:${versions.springBoot}",
+            springBootStarterTest         : "org.springframework.boot:spring-boot-starter-test:${versions.springBoot}",
+            springCloudStarterOpenFeign   : "org.springframework.cloud:spring-cloud-starter-openfeign:${versions.springCloud}",
+            springCloudStarterConfig      : "org.springframework.cloud:spring-cloud-starter-config:${versions.springCloud}",
+            springCloudStarterConfigServer: "org.springframework.cloud:spring-cloud-config-server:${versions.springCloud}",
+            springCloudStarterConfigClient: "org.springframework.cloud:spring-cloud-config-client:${versions.springCloud}",
+            postgreSQL                    : "org.postgresql:postgresql:${versions.postgreSQL}",
+            lombok                        : "org.projectlombok:lombok:${versions.lombok}",
+            swaggerUI                     : "org.springdoc:springdoc-openapi-starter-webmvc-ui:${versions.swagger}",
     ]
 }

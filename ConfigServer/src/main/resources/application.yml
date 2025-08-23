@@ -1,0 +1,15 @@
+server:
+  port: 9089
+
+spring:
+  application:
+    name: config-server-git
+  cloud:
+    config:
+      server:
+        git:
+          uri: "https://github.com/xgaslann/jsb-social-media-microservice-config-server.git"
+          default-label: "main"
+          skip-ssl-validation: true
+          username: "xgaslann"
+          password: ${GITHUB_PAT_KEY} # 7 days left before expire (2024-08-23)
